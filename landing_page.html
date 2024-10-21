@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        function message() {
+            alert("submitted");
+        }
+    </script>
+  <header>
+    <nav style="color: black;">
+      <div class="logo">Programmer</div>
+      <ul>
+        <li><a href="#home" style="color: black;">Home</a></li>
+        <li><a href="#about" style="color: black;">About</a></li>
+        <li><a href="#services" style="color: black;">Services</a></li>
+        <li><a href="#contact" style="color: black;">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1 style="color: black;">Welcome to Programmer.com</h1>
+      <p style="color: black;">We offer the best services for Customers!</p>
+      <a href="#services" class="btn">Learn More</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2 style="color: rgb(19, 210, 210);">About Us</h2>
+    <p>Programmer is committed to delivering excellent services and creating value for our customers.</p>
+  </section>
+
+  <section id="services">
+    <h2 style="color: rgb(19, 210, 210);">Our Services</h2>
+    <div class="services-container">
+      <div class="service">
+        <h3>Web Development</h3>
+        <p>We build responsive and modern websites.</p>
+      </div>
+      <div class="service">
+        <h3>Graphic Design</h3>
+        <p>Beautiful and engaging designs for your business.</p>
+      </div>
+      <div class="service">
+        <h3>Digital Marketing</h3>
+        <p>Grow your business with our digital marketing strategies.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 style="color: rgb(19, 210, 210);">Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn" onclick="message()">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Programmer. All rights reserved.</p>
+  </footer>
+</body>
+</html>
