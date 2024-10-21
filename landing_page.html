@@ -53,11 +53,11 @@
 
   <section id="contact">
     <h2 style="color: rgb(19, 210, 210);">Contact Us</h2>
-    <form>
+    <form onsubmit="event.preventDefault(); message();">
       <input type="text" placeholder="Your Name" required>
       <input type="email" placeholder="Your Email" required>
       <textarea placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn" onclick="message()">Send Message</button>
+      <button type="submit" class="btn">Send Message</button>
     </form>
   </section>
 
